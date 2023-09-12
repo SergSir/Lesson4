@@ -31,7 +31,7 @@ public	class	MainActivity	extends	AppCompatActivity	{
         MyLooper	myLooper	=	new	MyLooper(mainThreadHandler);
         myLooper.start();
 
-        binding.editTextMirea.setText("Мой номер по списку №18");
+        binding.editTextMirea.setText("Мой номер по списку №14");
         binding.buttonMirea.setOnClickListener(new	View.OnClickListener()	{
             @Override
             public	void	onClick(View	v)	{
